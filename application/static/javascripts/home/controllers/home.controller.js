@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('keeperoo.home.controllers')
+    .module('django-angular.home.controllers')
     .controller('HomeController', [ '$scope', 'Home', function($scope, Home) {
 
 		/*Home.bleu_score("some input", "some output").then(getBleuScoreSuccessFn, getBleuScoreErrorFn);

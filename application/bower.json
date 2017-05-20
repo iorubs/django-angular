@@ -1,20 +1,20 @@
 {
-  "name": "keeperoo",
+  "name": "django-angular",
   "version": "1.0.0",
-  "description": "Password safe/keeper.",
+  "description": "Quick start django-angular app template.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasconr2/keeperoo.git"
+    "url": "git+https://github.com/vasconr2/django-angular.git"
   },
   "author": "Ruben Vasconcelos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasconr2/keeperoo/issues"
+    "url": "https://github.com/vasconr2/django-angular/issues"
   },
-  "homepage": "https://github.com/vasconr2/keeperoo#readme",
+  "homepage": "https://github.com/vasconr2/django-angular#readme",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('keeperoo.home.services')
+    .module('django-angular.home.services')
     .factory('Home', Home);
 
   Home.$inject = ['$http'];

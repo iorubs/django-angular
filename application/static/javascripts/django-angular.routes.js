@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('keeperoo.routes')
+        .module('django-angular.routes')
         .config(config);
 
     config.$inject = ['$routeProvider'];

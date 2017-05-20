@@ -2,14 +2,14 @@
     'use strict';
 
     angular
-        .module('keeperoo.auth', [
-            'keeperoo.auth.controllers',
-            'keeperoo.auth.services'
+        .module('django-angular.auth', [
+            'django-angular.auth.controllers',
+            'django-angular.auth.services'
         ]);
 
     angular
-        .module('keeperoo.auth.controllers', []);
+        .module('django-angular.auth.controllers', []);
 
     angular
-        .module('keeperoo.auth.services', ['ngCookies']);
+        .module('django-angular.auth.services', ['ngCookies']);
 })();

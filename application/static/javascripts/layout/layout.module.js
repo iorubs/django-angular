@@ -2,10 +2,10 @@
     'use strict';
 
     angular
-        .module('keeperoo.layout', [
-            'keeperoo.layout.controllers'
+        .module('django-angular.layout', [
+            'django-angular.layout.controllers'
         ]);
 
     angular
-        .module('keeperoo.layout.controllers', []);
+        .module('django-angular.layout.controllers', []);
 })();

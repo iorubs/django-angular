@@ -5,7 +5,7 @@
     'use strict';
 
     angular
-        .module('keeperoo.auth.services')
+        .module('django-angular.auth.services')
         .factory('Auth', Auth);
 
     Auth.$inject = ['$cookies', '$http'];

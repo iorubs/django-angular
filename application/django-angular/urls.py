@@ -1,4 +1,4 @@
-"""keeperoo URL Configuration
+"""django-angular URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -18,7 +18,7 @@ from rest_framework_nested import routers
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from keeperoo.views import IndexView
+from views import IndexView
 from myauth.views import AccountViewSet, LoginView, LogoutView
 
 router = routers.SimpleRouter()

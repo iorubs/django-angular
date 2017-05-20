@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM node:alpine
 MAINTAINER Ruben Vasconcelos
 
 EXPOSE  8000
@@ -21,7 +21,7 @@ RUN pip install -r /tmp/requirements.txt && \
 RUN addgroup appuser && \
     adduser -s /bin/sh -D -G appuser appuser
 
-WORKDIR /src/keeperoo
+WORKDIR /src/django-angular
 
 USER appuser
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

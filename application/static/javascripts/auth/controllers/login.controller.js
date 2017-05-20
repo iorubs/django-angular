@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('keeperoo.auth.controllers')
+        .module('django-angular.auth.controllers')
         .controller('LoginController', LoginController);
 
     LoginController.$inject = ['$location', '$scope', 'Auth'];

@@ -5,7 +5,7 @@
     'use strict';
 
     angular
-        .module('keeperoo.layout.controllers')
+        .module('django-angular.layout.controllers')
         .controller('NavbarController', NavbarController);
 
     NavbarController.$inject = ['$scope', 'Auth'];

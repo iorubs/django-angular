@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('keeperoo.config')
+        .module('django-angular.config')
         .config(config);
 
     config.$inject = ['$locationProvider'];

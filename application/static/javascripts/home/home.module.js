@@ -2,14 +2,14 @@
     'use strict';
 
     angular
-        .module('keeperoo.home', [
-            'keeperoo.home.controllers',
-            'keeperoo.home.services'
+        .module('django-angular.home', [
+            'django-angular.home.controllers',
+            'django-angular.home.services'
         ]);
 
     angular
-        .module('keeperoo.home.controllers', []);
+        .module('django-angular.home.controllers', []);
 
     angular
-        .module('keeperoo.home.services', ['ngCookies']);
+        .module('django-angular.home.services', ['ngCookies']);
 })();
