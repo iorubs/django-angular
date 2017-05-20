@@ -16,4 +16,4 @@ Quick start django-angular app template plus authentication.
 10 - Open http://localhost:8000/ on your browser.  
 
 ### Tech Stack:   
-![alt tag](https://github.com/vasconr2/django-angular/blob/master/Stack.png)  
+![alt tag](https://github.com/iorubs/django-angular/blob/master/Stack.png)  
