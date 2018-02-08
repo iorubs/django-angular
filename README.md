@@ -5,7 +5,7 @@ Quick start django-angular app template plus authentication.
 
 ### Instructions:  
 1 - Install Docker, https://www.docker.com/products/docker.  
-2 - `git clone https://github.com/vasconr2/django-angular.git`  
+2 - `git clone https://github.com/iorubs/django-angular.git`  
 3 - `cd django-angular`  
 4 - `docker build -t django-angular .`  
 5 - `docker run -it -v "$PWD"/application:/src/django-angular -p 8000:8000 django-angular sh`  
